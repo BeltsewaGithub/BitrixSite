@@ -1,0 +1,67 @@
+.categories, .filters {
+    position: relative;
+    display: inline-block;
+}
+
+.sidebar {
+    padding: 10px;
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.checkbox-label-container {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.checkbox-label-container > label {
+    margin-left: 10px;
+}
+
+.checkbox-label-container > input {
+    height: 20px !important;
+    width: 20px !important;
+    position: relative;
+    top: 1.6px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.price-sort {
+    display: flex;
+    flex-direction: row;
+}
+
+.price-sort * {
+    width: 100px;
+}
+
+.properties-sort {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.categories:hover .dropdown-content, .filters:hover .dropdown-content{
+    display: block;
+}
+
+.drop-menu-button {
+    margin-bottom: 40px;
+}

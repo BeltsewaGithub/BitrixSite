@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/GenerationGaming/Styles/index.css" => "17315986502014",]; ?>

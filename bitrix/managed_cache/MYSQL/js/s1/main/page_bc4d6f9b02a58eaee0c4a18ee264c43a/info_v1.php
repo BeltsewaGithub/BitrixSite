@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/main/js/sim-slider.js" => "17312505005680",]; ?>

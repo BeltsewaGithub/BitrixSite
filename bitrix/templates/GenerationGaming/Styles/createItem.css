@@ -1,0 +1,50 @@
+
+#wrapper {
+    padding: 25px;
+    background-color: rgba(24, 24, 24, 0.836);
+}
+
+input {
+    height: auto !important;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.create-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-container {
+    width: 50%;
+    height: auto;
+    float: left;
+}
+
+.left-container > * {
+    margin-bottom: 20px;
+}
+
+.right-container {
+    width: 30%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+
+.input-label-category-container {
+    display: flex;
+    flex-direction: row;
+}
+
+select > * {
+    color: black;
+}
+
+.item-info-input{
+    width: 50%;
+}

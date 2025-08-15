@@ -1,0 +1,43 @@
+* {
+    font-family: "Montserrat Alternates", sans-serif !important;
+    color: black !important;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 70pt !important;
+}
+
+h2 {
+    display: inline;
+    font-size: 40pt;
+}
+
+h5 {
+    font-size: 20pt !important;
+}
+
+.text-body-secondary a{
+    color: black !important;
+}
+
+a {
+    color:  black !important;
+    font-size: 12pt;
+	text-decoration: none !important;
+}
+
+button {
+    font-size: 12pt !important;
+}
+
+nav-link p-0 text-body-secondary {
+    color: black !important;
+}
+
+.text-body-secondary > *{
+    color:  black !important;
+}

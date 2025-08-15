@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/GenerationGaming/Styles/headerFooter.css" => "17315987151676","/bitrix/templates/GenerationGaming/Styles/background.css" => "17316566291106","/bitrix/templates/GenerationGaming/Styles/font.css" => "1732199043618","/bitrix/templates/GenerationGaming/template_styles.css" => "17322096291680",]; ?>
