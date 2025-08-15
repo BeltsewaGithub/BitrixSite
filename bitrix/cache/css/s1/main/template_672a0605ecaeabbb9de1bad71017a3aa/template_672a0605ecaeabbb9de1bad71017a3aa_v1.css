@@ -1,0 +1,370 @@
+
+
+/* Start:/bitrix/wizards/bitrix/eshop/css/panel.css?1731061877240*/
+div.bx-top-panel table.bx-pnbutton div.icon-wizard {background-image:url(/bitrix/wizards/bitrix/eshop/css/wizard.gif)}
+
+td.popupmenu div.popupitem .wizard {background-image:url(/bitrix/wizards/bitrix/eshop/css/wizard.gif);}
+td.popupmenu div.popupitem .wizard-clear {background-image:url(/bitrix/wizards/bitrix/eshop/css/wizard_clear.gif);}
+/* End */
+
+
+/* Start:/bitrix/templates/main/Styles/headerFooter.css?17315987151676*/
+#footer, #header {
+}
+
+#Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.createItem {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+}
+
+
+#header {
+    border-bottom: solid 1px;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 10%;
+}
+
+#logo img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.searchButton {
+    margin-left: 20px;
+}
+
+.search-field {
+    margin-left: 20px;
+    width: 40%;
+}
+
+.search-field > form {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    position: relative;
+    right: 5%;
+}
+
+ul.references {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+}
+
+ul.references a {
+    display: block;
+	padding: 0;
+    width: 100%; 
+}
+
+.header-right-container *{
+    margin-left: 10px;
+}
+
+.header-right-container {
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: end;
+    width: 70%;
+}
+
+.header-right-container > *{
+    align-items: center;
+}
+
+.basket img {
+    margin: 0;
+    width: 30px;
+    filter: invert(1);
+}
+
+.basketButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+/*____footer____*/
+
+
+
+.logo-footer {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-footer > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/main/Styles/background.css?17316566291106*/
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(/bitrix/templates/main/Styles/../source/arena.jpg);
+    background-size: 100%;
+    backdrop-filter: blur(5px);
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.384);
+    color: grey;
+    display: block;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 0, 0, 0.781);
+    cursor: pointer; /* Меняем курсор при наведении */
+    transition: 0.2s;
+    margin-top: auto !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+button:hover {
+    color: black;
+}
+
+nav {
+    align-content: center;
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 10px;
+    padding: 16px 24px;
+    background: #FFFFFF;
+    border: 2px solid #1B1B1B;
+    box-sizing: border-box;
+    border-radius: 16px;
+    transition: 0.2s;
+  }
+
+  .user-icon {
+    filter: invert(1);
+    margin-right: 4px;
+    width: 30px;
+    height: 30px;
+  }
+/* End */
+
+
+/* Start:/bitrix/templates/main/Styles/font.css?1732199043618*/
+* {
+    font-family: "Montserrat Alternates", sans-serif !important;
+    color: black !important;
+}
+
+p {
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 70pt !important;
+}
+
+h2 {
+    display: inline;
+    font-size: 40pt;
+}
+
+h5 {
+    font-size: 20pt !important;
+}
+
+.text-body-secondary a{
+    color: black !important;
+}
+
+a {
+    color:  black !important;
+    font-size: 12pt;
+	text-decoration: none !important;
+}
+
+button {
+    font-size: 12pt !important;
+}
+
+nav-link p-0 text-body-secondary {
+    color: black !important;
+}
+
+.text-body-secondary > *{
+    color:  black !important;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/main/template_styles.css?17322096291680*/
+#footer, #header {
+}
+
+#Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.createItem {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0%;
+}
+
+
+#header {
+    border-bottom: solid 1px;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+    margin: 0;
+    align-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 10%;
+}
+
+#logo img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.searchButton {
+    margin-left: 20px;
+}
+
+.search-field {
+    margin-left: 20px;
+    width: 40%;
+}
+
+.search-field > form {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    position: relative;
+    right: 5%;
+}
+
+ul.references {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    list-style: none;
+}
+
+ul.references a {
+    display: block;
+	padding: 0;
+    width: 100%; 
+}
+
+.header-right-container *{
+    margin-left: 10px;
+}
+
+.header-right-container {
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    position: relative;
+    float: right;
+    justify-content: end;
+    width: 70%;
+}
+
+.header-right-container > *{
+    align-items: center;
+}
+
+.basket img {
+    margin: 0;
+    width: 30px;
+    filter: invert(1);
+}
+
+.basketButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+/*____footer____*/
+
+
+
+.logo-footer {
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-footer > img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* End */
+/* /bitrix/wizards/bitrix/eshop/css/panel.css?1731061877240 */
+/* /bitrix/templates/main/Styles/headerFooter.css?17315987151676 */
+/* /bitrix/templates/main/Styles/background.css?17316566291106 */
+/* /bitrix/templates/main/Styles/font.css?1732199043618 */
+/* /bitrix/templates/main/template_styles.css?17322096291680 */
